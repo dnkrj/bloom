@@ -65,6 +65,15 @@ h1, h2 {
   box-sizing: border-box;
 }
 
+h1 {
+  flex-direction: column;
+}
+
+img {
+  margin-left: 10px;
+  width: 34%;
+}
+
 .warm h2 {
   background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
 }
@@ -85,6 +94,12 @@ p {
   animation: fade 2.4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+a {
+  margin-top: 10px;
+  color: white;
 }
 
 .warm p:nth-child(2) {
